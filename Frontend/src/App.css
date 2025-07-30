@@ -1,0 +1,89 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  padding: 20px;;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1E1E1E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: flex-start; 
+  /* padding: 20px; */
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tweet {
+  display: flex;
+  align-items: flex-start; /* aligns avatar and content to the top */
+  gap: 12px;               /* optional: space between avatar and content */
+  padding: 12px;
+  font-family: system-ui, sans-serif;
+}
+
+.tweet-avatar img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #1da1f2;
+}
+
+.tweet-content {
+  flex: 1; /* fills remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #aaa;
+  flex-wrap: wrap;
+}
+
+.tweet-actions {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #8b98a5;
+  padding-top: 8px;
+  gap: 20px;
+}
+
+.right-icons {
+  margin-left: auto;
+  display: flex;
+  gap: 16px;
+}
+
+.left-icons {
+  display: flex;
+  gap: 6em; 
+}
