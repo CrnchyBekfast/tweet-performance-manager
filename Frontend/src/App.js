@@ -544,7 +544,7 @@ function App() {
       <footer className="App-footer" style={{ backgroundColor: '#1e1e1e', padding: '20px 0', color: 'white', position: 'relative', bottom: 0, width: '100%' }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '10px' }}>
           <div style={{ marginBottom: '10px' }}>
-            <a href="https://github.com/CrnchyBekfast/CSoT/tree/main/AI_%26_Dev_DevClub/Week-4" target="_blank" rel="noopener noreferrer" style={{ color: '#888888', fontSize: '32px', textDecoration: 'none' }}>
+            <a href="https://github.com/CrnchyBekfast/tweet-performance-manager" target="_blank" rel="noopener noreferrer" style={{ color: '#888888', fontSize: '32px', textDecoration: 'none' }}>
               <i className="fab fa-github"></i>
             </a>
           </div>
